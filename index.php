@@ -121,7 +121,7 @@ try{
     <html>
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-            <meta name="viewport" content="width=670, initial-scale=0.8">
+            <meta name="viewport" content="width=670, initial-scale=0.6, user-scalable=no">
             <link rel="stylesheet" type="text/css" href="css/site.css">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <script type="text/javascript" src="js/jquery.js"></script>
