@@ -46,6 +46,8 @@ class Translations{
             "shortcut-s" => "Toggle subtitles",
             "shortcut-d" => "Decrease Subtitle delay",
             "shortcut-f" => "Increase Subtitle delay",
+            "shortcut-8" => "Turn on TV",
+            "shortcut-9" => "Turn off TV",
             "yes" => "Yes",
             "no" => "No",
             "enabled" => "Enabled",

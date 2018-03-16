@@ -107,6 +107,12 @@ try{
                             OMX::sendCommand("p", "pipe");
                         }
                         break;
+                    case "8":
+                        exec('/usr/bin/tvservice -p');
+                        break;
+                    case "9":
+                        exec('/usr/bin/tvservice -o');
+                        break;
                     default:
                         $key = OMX::$hotkeys[$_POST["shortcut"]];
                         OMX::sendCommand(isset($key["shortcut"]) ? $key["shortcut"] : $_POST["shortcut"], "pipe");

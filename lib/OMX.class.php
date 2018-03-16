@@ -46,7 +46,9 @@ class OMX{
         "m" => array("key" => "77"),
         "s" => array("key" => "83"),
         "d" => array("key" => "68"),
-        "f" => array("key" => "70")
+        "f" => array("key" => "70"),
+        "8" => array("key" => "57,105"),
+        "9" => array("key" => "58,106")
     );
 
     /**
