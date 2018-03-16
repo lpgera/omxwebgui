@@ -11,7 +11,7 @@ then
     rm $3
 fi
 mkfifo $3
-omxplayer -o hdmi -b "$1" < $3 &
+omxplayer -o hdmi --font /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf --italic-font /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf -b "$1" < $3 &
 echo -n "." > $3 &
 
 # fix for double play speed at start
